@@ -5,9 +5,10 @@ from . import views
 
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
-router.register(r'education', views.EducationApiView)
-router.register(r'portfolio', views.ProjectsApiView)
-router.register(r'experience', views.ExperienceApiView)
+router.register(r'education', views.EducationApiView)  
+router.register(r'portfolio', views.ProjectsApiView)   
+router.register(r'experience', views.ExperienceApiView)   
+
 
 
 urlpatterns = [
