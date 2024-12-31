@@ -32,6 +32,11 @@ body {
   min-height: 100vh;
 }
 
+body.rtl {  
+  direction: rtl; /* راست‌چین کردن */  
+  text-align: right; /* تراز کردن متن */  
+}  
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
