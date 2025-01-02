@@ -36,10 +36,52 @@ import {
   yourlogo,
 } from "../assets";
 
+import portfolioWebsite  from '../assets/project/portfolioWebsite.png';
+
+
+
 export const navigation = [
  
   
 ];
+export const portfolioProjects =[
+  {
+    id: "0",
+    company: "UI UX",
+    year: "2024",
+    title: "Portfolio Website",
+    results_title1: "Full Animation",
+    results_title2: "4 colo Modes",
+    results_title3: "5 Page, Component Base",
+    link: "https://www.figma.com/design/LpGAHo5KYcz3BW4Vs0CiqI/A?node-id=667-6246&p=f&t=JKRtfxJnoFqVGQEN-0",
+    image: portfolioWebsite,
+   },
+   {
+    id: "1",
+    company: "UI UX",
+    year: "2024",
+    title: "Portfolio Website",
+    results_title1: "Full Animation",
+    results_title2: "4 colo Modes",
+    results_title3: "5 Page, Component Base",
+    link: "https://www.figma.com/design/LpGAHo5KYcz3BW4Vs0CiqI/A?node-id=667-6246&p=f&t=JKRtfxJnoFqVGQEN-0",
+    image: portfolioWebsite,
+   },
+   {
+    id: "2",
+    company: "UI UX",
+    year: "2024",
+    title: "Portfolio Website",
+    results_title1: "Full Animation",
+    results_title2: "4 colo Modes",
+    results_title3: "5 Page, Component Base",
+    link: "https://www.figma.com/design/LpGAHo5KYcz3BW4Vs0CiqI/A?node-id=667-6246&p=f&t=JKRtfxJnoFqVGQEN-0",
+    image: portfolioWebsite,
+   },
+   
+
+]
+
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
