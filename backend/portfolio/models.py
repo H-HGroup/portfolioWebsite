@@ -26,7 +26,11 @@ class Experience(models.Model):
 
 class Projects(models.Model):
     title = models.CharField(max_length=50)
-    descrption = models.TextField()
+    fieldOfWork = models.CharField(max_length=50, default='nothing')
+    year = models.CharField(max_length=50,  default='nothing')
+    tip1 = models.CharField(max_length=50, default='nothing')
+    tip2 = models.CharField(max_length=50, default='nothing')
+    tip3 = models.CharField(max_length=50, default='nothing')
     image = models.ImageField(upload_to='uploads/', null=True, blank=True)
     url = models.URLField(max_length=200)
     order = models.IntegerField(default=1)
