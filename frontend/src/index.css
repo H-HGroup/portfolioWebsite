@@ -17,6 +17,17 @@
   scroll-behavior: smooth
 }
 
+@keyframes slideLeft {  
+  0% {  
+      transform: translateX(0);  
+  }  
+  100% {  
+      transform: translateX(-50%); /* جابه‌جایی کامل به سمت چپ */  
+  }  
+}  
+
+  
+
 @layer base {
   body {
     @apply font-sans bg-n-11 text-n-1 text-base;

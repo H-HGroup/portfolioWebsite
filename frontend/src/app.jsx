@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Hero from './components/Hero';
 import Project from './components/Project';
 import Services from './components/Services';
+import Tape from './components/Tape';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Services />
 
         <Project />
+        <Tape />
       </div>
 
     </>
