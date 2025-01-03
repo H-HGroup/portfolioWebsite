@@ -10,6 +10,7 @@ const Button = ({ className, href, onClick, children, px, white }) => {
     <button className={classes} onClick={onClick}>
       <span className={spanClasses}>{children}</span>
       {ButtonSvg(white)}
+
     </button>
   );
 
@@ -17,6 +18,7 @@ const Button = ({ className, href, onClick, children, px, white }) => {
     <a href={href} className={classes}>
       <span className={spanClasses}>{children}</span>
       {ButtonSvg(white)}
+
     </a>
   );
 

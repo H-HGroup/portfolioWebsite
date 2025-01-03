@@ -39,11 +39,11 @@ import {
 import portfolioWebsite  from '../assets/project/portfolioWebsite.png';
 
 
-
 export const navigation = [
  
   
 ];
+
 export const portfolioProjects =[
   {
     id: "0",

@@ -10,7 +10,7 @@ import sparkle from "../assets/hero/sparkle.png"
 
 const Hero = () => {
   return (
-    <div className='py-32 container relative lg:py-25 z-0'>
+    <div className='py-32 container relative lg:py-25 lg:pb-8 z-0'>
       <div className='absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]'>
         <div className='absolute inset-0 -z-30 opacity-5 background size-[1400px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full '>
         </div>
