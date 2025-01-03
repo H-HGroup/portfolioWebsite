@@ -24,6 +24,7 @@ INSTALLED_APPS = [
 ]  
 
 MIDDLEWARE = [  
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',  
     'django.contrib.sessions.middleware.SessionMiddleware',  
     'corsheaders.middleware.CorsMiddleware',   
@@ -37,7 +38,7 @@ MIDDLEWARE = [
 ]  
 
 CORS_ALLOWED_ORIGINS = [  
-    "http://localhost:5173",  
+    "http://localhost:5174",  
 ]  
 
 ROOT_URLCONF = 'backend.urls'  
@@ -110,3 +111,5 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 # Default primary key field type  
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CORS_ALLOW_ALL_ORIGINS = True
