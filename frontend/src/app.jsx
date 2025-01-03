@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import Project from './components/Project';
 import Services from './components/Services';
 import Tape from './components/Tape';
-
+import About from './components/About';
 
 const App = () => {
 
@@ -14,9 +14,9 @@ const App = () => {
         <Header />
         <Hero />
         <Services />
-
         <Project />
         <Tape />
+        <About />
       </div>
 
     </>
