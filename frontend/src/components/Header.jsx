@@ -26,7 +26,7 @@ const Header = () => {
         setOpenNavigation(false);
       };
     return (
-        <div className={`fixed top-0 left-0 w-full z-50 bg-n-11/70 backdrop-blur-sm border-b border-n-10/20 lg:bg-n-11/70 lg:backdrop-blur-sm ${openNavigation ? "bg-n-11/70" : "bg-n-11/70 backdrop-blur-sm" }`}>
+        <div className={`fixed top-0 left-0 w-full z-40 bg-n-11/70 backdrop-blur-sm border-b border-n-10/20 lg:bg-n-11/70 lg:backdrop-blur-sm ${openNavigation ? "bg-n-11/70" : "bg-n-11/70 backdrop-blur-sm" }`}>
           <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
             <a className="block w-[12rem] xl:mr-8 " href="#hero">
             <img src="../public/logo.png" width={190} height={40} alt="H&H Group" />
