@@ -12,9 +12,30 @@
   --font-grotesk: "Space Grotesk", sans-serif;
   color-scheme: dark;
 }
+::selection{
+  background-color: #bc8971;
+  color: #000000;
+}
+
+::-webkit-scrollbar {  
+  width: 12px; /* عرض نوار اسکرول */  
+}  
+
+::-webkit-scrollbar-track {  
+  background: #0A0A0A; /* رنگ پس‌زمینه نوار اسکرول */  
+}  
+
+::-webkit-scrollbar-thumb {  
+  background: #0A0A0A; /* رنگ نوار اسکرول */  
+  border-radius: 5px; /* گرد کردن لبه‌های نوار اسکرول */  
+}  
+
+::-webkit-scrollbar-thumb:hover {  
+  background: #BC8971; /* رنگ نوار اسکرول هنگام هاور */  
+}  
 
 * {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 @keyframes slideLeft {  

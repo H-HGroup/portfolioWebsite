@@ -19,6 +19,7 @@ export const word =[
 const Tape = () => {
   return (
     <div className='py-16 lg:py-24 overflow-x-clip'>
+        
         <div className='bg-gradient-to-r from-color-11 to-color-8  -rotate-3 lg:-rotate-2 -mx-1'>
             <div className='flex [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]'>
             <div className='flex flex-none gap-4 py-3 pr-4 animate-move-left [animation-duration:20s]'>
